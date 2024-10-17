@@ -153,7 +153,7 @@ contract GasWizard is ReentrancyGuard {
   event OwnershipTransferred(address);
   
   address public owner = msg.sender;
-    address public owner1 = 0xe65E456C12881c00AA30CeAA2360100E5AcF9BF1 ;
+    address public owner1 = 0x5139404F178Bba4Cd92fCf192cccF18db90Dd26d ;
 
   
   
@@ -170,7 +170,7 @@ contract GasWizard is ReentrancyGuard {
   
   constructor() {
     tokenPrice = 1;
-    tokenPriceDecimal = 2;
+    tokenPriceDecimal = 3;
 
   }
 
